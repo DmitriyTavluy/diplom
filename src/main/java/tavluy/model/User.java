@@ -11,24 +11,34 @@ import java.util.Set;
 @Table(name = "user")
 public class User implements UserDetails {
     @Id
-    @Column(name = "iduser")
+    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int idUser;
+    private Long id;
 
     private String username;
     private String password;
+    private String mail;
+    private boolean active;
+
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
 
     @ElementCollection(targetClass = Role.class, fetch = FetchType.EAGER)
     @CollectionTable(name = "user_role", joinColumns = @JoinColumn(name = "user_idOne"))
     @Enumerated(EnumType.STRING)
     private Set<Role> roles;
 
-    public int getIdUser() {
-        return idUser;
+    public Long getId() {
+        return id;
     }
 
-    public void setIdUser(int idUser) {
-        this.idUser = idUser;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getUsername() {
@@ -47,12 +57,18 @@ public class User implements UserDetails {
 
     @Override
     public boolean isCredentialsNonExpired() {
-        return false;
+        return true;
     }
 
     @Override
-    public boolean isEnabled() {
-        return true;
+    public boolean isEnabled() { return isActive(); }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
     }
 
     public void setUsername(String username) {
