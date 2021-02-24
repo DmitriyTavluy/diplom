@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="987b34f1-0541-4064-940a-b239c6bbb3f7" name="Default Changelist" comment="qwerty">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tavluy/controller/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tavluy/repo/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tavluy/servise/SendMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tavluy/servise/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/createuser.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bd75823e-4c2a-4ba8-b611-0fa1c808804e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bd75823e-4c2a-4ba8-b611-0fa1c808804e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
+    <list default="true" id="987b34f1-0541-4064-940a-b239c6bbb3f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tavluy/controller/CreateUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tavluy/repo/CreateUserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tavluy/servise/CreateUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myjob.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myjob.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tavluy/MyjobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tavluy/MyjobApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tavluy/config/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tavluy/config/MailConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tavluy/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tavluy/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tavluy/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tavluy/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tavluy/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tavluy/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createuser.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createuser.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tavluy/MyjobApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tavluy/MyjobApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tavluy/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tavluy/controller/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tavluy/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tavluy/model/User.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,8 +61,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -100,6 +82,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/Загрузки/UprTovOst-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -148,7 +131,8 @@
       <workItem from="1613638053410" duration="6624000" />
       <workItem from="1613665076581" duration="3218000" />
       <workItem from="1613677048200" duration="3323000" />
-      <workItem from="1614096411662" duration="2455000" />
+      <workItem from="1614096411662" duration="8676000" />
+      <workItem from="1614115993957" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary="qwerty">
       <created>1613639579383</created>
@@ -157,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613639579383</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="qwerty">
+      <created>1614107591545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614107591546</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
